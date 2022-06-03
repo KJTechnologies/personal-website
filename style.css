@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  color: #212226;
+}
+
+.home-description {
+  color: #fff;
+}
+
+section {
+  background: #fff;
+  overflow: hidden;
+}
+
+/* home section */
+#home {
+  background: none;
+  height: 100%;
+}
+
+/* background video */
+.home-bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background: url("../video/solo.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* overlay background */
+.over-lay-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* home content */
+.home-content {
+  text-align: center;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.home-content-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* headings (h1, h2) */
+.big-headings {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.big-headings span {
+  color: #f4c613;
+  font-weight: 500
+}
+
+/* buttons */
+.btn-general {
+  font-family: 'Raleway', sans-serif;
+  border-radius: 28px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0 6px;
+  padding: 12px 46px 12px 46px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn-home {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  color: #fff;
+  background-color: #f4c613;
+  border: 1px solid #f4c613;
+}
+
+/* about section part one section */
+#about {
+  vertical-align: middle;
+
+}
+
+.content-box-lg {
+  padding: 120px 0;
+}
+
+.text-rotate {
+  color: #f4c613;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  position: relative;
+  top: 60px;
+  left: -53px;
+
+}
+
+.about-headings {
+  margin: 0 0 0 35px;
+  font-size: 1.5rem;
+
+}
+
+.about-paragraphs p :first-child {
+  margin-top: 20px;
+}
+
+/* @media screen {
+  margin-top: 40px;
+} */
+
+/* about us image */
+#about-image {
+  margin: 0 auto;
+  text-align: center;
+  width: 100;
+  padding: 60px;
+}
+
+/* part two of about us section - still working on it */
+.icon {
+  padding: 3% 7%;
+}
+
+.card {
+  padding: 0 5%;
+}
+
+#about-2 {
+  padding: 0 0 0 15%;
+}
